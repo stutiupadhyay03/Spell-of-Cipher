@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+:root {
+    --color: #262262;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-transform: capitalize; */
+    transition: all .2s linear;
+    text-decoration: none;
+}
+body{
+        /* background-image: none; */
+        background: linear-gradient(to right, #92278f 0%, #262262 100%);
+        /* height: 100vh */
+  }
+  
+  .phonewizard{
+    display: none;
+  }
+  .leptopwizard{
+    display: block;
+  }
+
+.im1{
+	width: 100%;
+}
+
+.welcome
+{
+	margin-top: 1%;
+  margin-left: 10%;
+	width: 50%;
+
+}
+.wizard
+{
+	width: 80%;
+	height: 90%;
+  margin-left: 2%;
+}
+.dis
+{
+	font-weight: 500;
+  padding: 0px 20px 20px 20px;
+  font-size: 20px;
+	margin-top: 2%;
+	margin-left: 6%;
+	width: 60%;
+	height: 60%;
+	border-radius: 30px;
+  color: #CE2A86;
+  background-color: whitesmoke;
+    /* background: linear-gradient(to right,red, green); */
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+  body{
+  	/* height: 100vh;
+        background-image: none; */
+        background: linear-gradient(to right, #92278f 0%, #262262 100%);
+        
+  }
+  .welcome{
+    margin-top: 40%;
+    height: 10vh;
+      width:auto;
+
+  }
+
+  .phonewizard{
+    display: block;
+    margin-left: 80%;
+  }
+  .leptopwizard{
+    display: none;
+  }
+
+  .dis{
+    font-weight: 500;
+    padding: 0px 20px 20px 20px;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-right: 6%;
+    margin-left: 6%;;
+    width:100%;
+    /* height: 60%; */
+    border-radius: 30px;
+    color: #CE2A86;
+    background-color: whitesmoke;
+  }
+ 
+}

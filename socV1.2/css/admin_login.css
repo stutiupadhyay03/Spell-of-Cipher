@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-image: url('../images/login2.png');
+    background-size: 100% 100vh;
+}
+
+.wrapper
+{
+    background-color: white;
+    margin-top: 12%;
+    margin-left: 60%;
+    max-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 30px;
+    /* justify-content: center; */
+}
+
+.title-text
+{
+    /* display: flex; */
+    width: 200%;
+    
+}
+.wrapper .title{
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /* color: white; */
+    /* background: -webkit-linear-gradient(left, #a445b2, #fa4299)    */
+
+}
+
+
+.inside-form form .field input
+{   
+    height: 40px;
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    outline: none;
+
+}
+
+.inside-form form .field input:focus {
+    border-color: #fc83bb;
+}
+
+
+.field-btn input
+{
+    height: 40px;
+    width: 104%;
+    margin-top: 3%;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    background: linear-gradient(to left, #fc1599, #92278f);
+}
+
+.field-btn input:hover{
+    background: #92278f;
+}

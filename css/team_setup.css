@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+  /*height: 100%;*/
+  /* background-repeat:inherit; */
+  /*width:90%;*/
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    background: linear-gradient( to left, rgba(146, 39, 143, 80%) 20%, #6463ac, rgb(38, 34, 98));
+}
+
+
+
+
+.class{
+  justify-content:right;
+  margin-top:-2%;
+}  
+
+.backbutton{
+    /*text-decoration: none;
+    color: #CE2A86 ;
+    border-radius: 75px;
+    background-color: white;
+    padding:3px 5px 3px 5px;*/
+    text-decoration: none;
+    color: #CE2A86 ;
+    /*left: 20px;*/
+    border-radius: 75px;
+    background-color: white;
+    padding:8px 8px 8px 5px;
+   
+    
+}
+
+
+
+.team
+{
+  position: absolute;
+  margin-left: 40%;
+  top: 2%;
+  /*margin-top:5%;*/
+  /* padding: 5%; */
+  height: 150px;
+  /* margin-top: 50%; */
+  /* width: 180px; */
+  z-index: 10;
+  border-radius: 50%;
+  border: 8px solid #6463ac ;
+  /* box-shadow: 10px 10px 5px black; */
+  /* box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1); */
+}
+.t_name{
+  margin-top: 3%;
+}
+.pop-up
+{
+  display: none;
+  height:100%;
+  width:100%;
+  z-index:200;
+  position:fixed;
+  background-color:rgba(38, 34, 98, 0.4);
+  margin-top:-64px;
+  margin-left:-64px;
+}
+.pop-up-card{
+  height: 31vh;
+  width:35%;
+  margin-top: 35vh;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding-bottom: 220px;
+
+}
+
+.warning{
+  width:100%;
+  background-color:rgba(255, 0, 0, 0.75);
+  height:10vh;
+  justify-content:center;
+  padding:15px;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+
+}
+
+.warning-ays{
+  width: 100%;
+  justify-content: center;
+  /*margin-top: 1%;*/
+  padding: 10px 10px 0px 10px;
+  font-family: 'Carter One', cursive!important;
+  
+}
+ .warning-ays button{
+    margin-right: 5%;
+    margin-left: 2%;
+  }
+   .warning-ays .fa{
+    font-size:35px;
+   
+  }
+
+.warning-ays p{
+  font-family: 'Poppins', sans-serif!important;
+}
+
+
+.main{
+  top: 90%;
+  /*width: 100%;*/
+  /* border-top: 5px solid black; */
+  /*height: 90%;*/
+  background-color:whitesmoke;
+  padding: 0px 15px 20px;
+  border-radius: 25px;
+  margin-top:2%  ;
+  z-index: 1;
+}
+
+ .heading {
+  margin: 0 auto;
+  /*text-align: center;*/
+  /*width: 30%;*/
+  color: #92278f;
+  font-weight: bold;
+  font-size: 35px;
+  /*background-color: red;*/
+  margin-bottom: 1%;
+  /*border: 2px solid black;*/
+  text-decoration: underline #6463ac;
+}
+
+
+.profile-pic{
+  height: auto;
+  width: 14%;
+  margin:0 auto;
+
+  border-radius: 50%;
+} 
+
+.addtroop{
+font-family: 'Carter One', cursive;
+font-size:20px; 
+margin-top:4%;
+}
+
+.addemail{
+padding-left:10px;
+margin-top:4%;
+}
+.addsubmit{
+background:rgba(247, 188, 26, 1);
+margin-top:4%;
+margin-bottom:5%;
+}
+
+.tname
+{
+  margin:4% auto 0px auto;
+  font-family: 'Scheherazade New', serif!important;
+  letter-spacing: 2px;
+  /* margin-top: 0.5%; */
+  font-size: 50px;
+  font-weight: bold;
+  color:rgb(168, 0, 168);
+  
+}
+
+.cards{
+  margin-top: 2%;
+}
+
+.col-lg-3 {
+  margin-bottom: 3%;
+}
+
+.btn-2{
+background:none;
+border:none;
+outline: none; 
+/* display: block; */
+/*  margin:45%; */
+margin-left: -30%; 
+margin-top: 15%;
+}
+
+.plus{
+  color:rgba(18, 5, 194,0.8);
+  outline: none;
+  margin-left: 38%;
+  margin-top: 20%;
+
+  /* overflow: hidden; */
+}
+.error{
+  background-color: #f2b61a;
+  color: black;
+  font-size:25px;
+  border-radius: 8px;
+  border:none;
+  outline: none;
+  padding: 0px 40px 0px 40px;
+}
+
+button:focus{
+    outline:none !important;
+}
+
+.profile-pic{
+  border:2px solid black;
+  border-radius: 50%;
+  margin-top: 7%;
+  width: 120px; 
+  height: 120px;
+}
+
+  @import "https://fonts.googleapis.com/css?family=Open+Sans:300,400";
+
+.firstinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    height: 100%;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    animation: animatop 0.9s cubic-bezier(0.425, 1.14, 0.47, 1.125) forwards;
+}
+
+.card {
+    width: 78%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.card:after {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 300px;
+    background: rgba(99, 100, 172, 1);
+    position: absolute;
+    animation: rotatemagic 0.75s cubic-bezier(0.425, 1.04, 0.47, 1.105) 1s both;
+    z-index: 0;
+}
+
+.firstinfo {
+  /* border: 2px solid black; */
+    width: 100%;
+    flex-direction: row;
+    z-index: 2;
+    /* position: relative; */
+    margin: 0 auto;
+    height:auto;
+    /* overflow:scroll; */
+}
+
+.firstinfo img {
+    border-radius: 50%;
+    margin-top: 2%;
+    width: 120px;
+    height: 120px;
+    margin-right: 68%;
+    position: absolute;
+}
+
+.firstinfo .profileinfo {
+    /* padding-left: 0%; */
+    /* position: relative; */
+    margin-left: 25%;
+    /* height: auto; */
+    justify-content: center;
+    /* z-index: 1; */
+
+    /* border: 2px solid black;  */
+}
+
+.mem_name{
+  margin-top: 4%;
+  color: rgb(18, 5, 194);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Stick No Bills', sans-serif!important;  
+  letter-spacing: 1px;
+  height: auto;
+  /* border: 2px solid black; */
+  
+}
+
+.mem_title{
+  color: green;
+  font-size: 27px;
+  margin-top: -5%;
+  font-family: 'Satisfy', cursive!important;
+}
+
+
+
+.mail{
+  margin-top: -4%;
+  font-size:14px;
+  text-align: left;
+  margin-left: 6%;
+  letter-spacing: 1px;
+  width: 200%;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif!important;
+}
+.pnum{
+  font-size: 14px;
+  margin-top: -4%;
+  margin-left: 7%;
+  letter-spacing: 0.2px;
+  text-align: left;
+  letter-spacing: 1px;
+  width: 100%;
+  font-family: 'Nunito', sans-serif!important;
+  font-weight: bold;
+}
+
+
+
+@keyframes animatop {
+    0% {
+        opacity: 0;
+        bottom: -500px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+    }
+}
+
+@keyframes animainfos {
+    0% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: -42px;
+    }
+}
+
+@keyframes rotatemagic {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+        top: -24px;
+        left: -253px;
+    }
+    100% {
+        transform: rotate(-30deg);
+        top: -24px;
+        left: -78px;
+    }
+}
+
+#add_mem{
+  margin-left:10%;
+}
+
+#add_mem input{
+  margin-top: 2%;
+  height:40px;
+  width: 100%;
+  border-radius:25px;
+  outline: none;
+}
+
+
+#remove-btn{
+      margin-top: 6%;
+      border:none;
+      width: 7%;
+      height: 18%;
+      outline: none;
+      border-radius: 69%;
+      margin-left: 77%;
+      bottom: 0%;
+      position: absolute;
+      padding: 0%;
+      top: -21%;
+      right: 10.5%;
+      z-index: 5;
+      background-color: transparent;
+      cursor: pointer;
+      
+}
+
+.profile-pending{
+  font-family: 'Carter One', cursive;color:#f2b61a; 
+  font-size:23px;
+}
+
+.cross{
+  background-color: red;
+  padding: 8px 11px 8px 11px;
+  border-radius: 50%; 
+  color:rgba(255, 255, 255, 0.91);
+
+}
+
+.card-img{
+  /* border:2px solid black; */
+  /* height:50%; */
+  width:100%;
+  border-radius: 50%;
+  margin-top:20%;
+  margin-left: 7%;
+}
+
+.new{
+  /* border:2px solid black; */
+  /* height:70%; */
+  width:100%;
+  /* border-radius: 50%; */
+}
+
+.done{
+  margin-left:45% ;
+  margin-bottom: 4%;
+  width: 15%;
+  background: rgba(99, 100, 172, 1);
+  outline: none;
+  border:none;
+  padding: 1px;
+  height: 45px;
+  border-radius: 10px; 
+  /*border-bottom-right-radius: 25px; */
+  color: white;
+  font-size: 28px;
+}
+
+
+/*=====================================================================================
+==============================Mobile CSS=============================================
+==================================================================================*/
+
+@media screen and (max-width: 1200px) {
+  body{
+    /*margin-top:5%;*/
+  }
+
+  .col-lg-6.card{
+   width: 95%;
+  }
+  .card-img{
+    /* border:2px solid black; */
+    /* height:50%; */
+    width:100%;
+    border-radius: 50%;
+    margin-top:50%;
+    margin-left: 25%;
+  }
+  .team
+  {
+    position: absolute;
+    margin-left: 32%;
+    top: 0%;
+     /*padding: 5%; */
+    height: 200px;
+     margin-top: 4%; 
+    /* width: 180px; */
+    z-index: 2;
+    border-radius: 50%;
+    border: 8px solid #6463ac ;
+    /* box-shadow: 10px 10px 5px black; */
+    /* box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1); */
+  }
+
+.backbutton{
+    text-decoration: none;
+    color: #CE2A86 ;
+    border-radius: 75px;
+    background-color: white;
+    /*padding:3px 5px 3px 5px;*/
+    padding:8px 8px 8px 5px;
+
+   
+}
+
+.addtroop{
+font-family: 'Carter One', cursive;
+font-size:35px; 
+margin-top:4%;
+}
+
+#addemail{
+padding-left:10px;
+margin-top:4%;
+}
+.addsubmit{
+background:rgba(247, 188, 26, 1);
+margin-top:4%;
+margin-bottom:5%;
+
+}
+
+
+.cross{
+  background-color: red;
+  padding:8px 11px 8px 11px;
+  border-radius: 50%;
+  margin-left: 30%; 
+  margin-top: 8%;
+  color:rgba(255, 255, 255, 0.91);
+}
+.profile-pending{
+  font-family: 'Carter One', cursive;color:#f2b61a; 
+  font-size:30px;
+}
+
+.error{
+  background-color: #f2b61a;
+  color: black;
+  font-size:25px;
+  border-radius: 8px;
+  border:none;
+  outline: none;
+  margin-top: -12%;
+  margin-left: -32%;
+  z-index: 100;
+  position: absolute;
+  padding: 0px 40px 0px 40px;
+}
+
+  .tname
+  {
+    margin: 15% auto;
+    font-family: 'Scheherazade New', serif!important;
+    letter-spacing: 2px;
+    /* margin-top: 0.5%; */
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(168, 0, 168);
+    
+  }
+
+  .class{
+    justify-content:right;
+    margin-top:-5%;
+    margin-bottom: 10%;
+  } 
+
+.cards{
+  margin-top: -8%;
+}
+
+  .main{
+    top: 90%;
+    width: 100%;
+    /* border-top: 5px solid black; */
+    /*height: 90%;*/
+    background-color:whitesmoke;
+    padding: 0px 15px;
+    border-radius: 25px;
+    margin-top:2%  ;
+    z-index: 1;
+  }
+
+  .mem_name{
+    margin-top: 4%;
+    color: rgb(18, 5, 194);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Stick No Bills', sans-serif!important;  
+    letter-spacing: 1px;
+    height: auto;
+    /* border: 2px solid black; */
+    
+  }
+
+  .plus{
+    color:rgba(18, 5, 194,0.8);
+    outline: none;
+    margin-left: 40%;
+    margin-top: 50%;
+  
+    /* overflow: hidden; */
+  }
+
+  .mem_title{
+    color: green;
+    font-size: 37px;
+    margin-top: -3%;
+    font-family: 'Satisfy', cursive!important;
+  }
+
+  .mail{
+    margin-top: 0%;
+    font-size: 20px;
+    text-align: left;
+    /*margin-left: 6%;*/
+    letter-spacing: 1px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif!important;
+  }
+  .pnum{
+    font-size: 20px;
+    margin-top: -5%;
+    /*margin-left: 7%;*/
+    letter-spacing: 0.2px;
+    text-align: left;
+    width: 100%;
+    font-family: 'Nunito', sans-serif!important;
+  }
+
+  .card {
+      width: 80%;
+      height: auto;
+      min-height: 250px;
+      padding: 10px;
+      border-radius: 3px;
+      background-color: white;
+      box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      margin-bottom: 10%;
+  }
+  .card:after {
+      content: '';
+      display: block;
+      width: 230px;
+      height: 500px;
+      background: rgba(99, 100, 172, 1);
+      position: absolute;
+      animation: rotatemagic 0.75s cubic-bezier(0.425, 1.04, 0.47, 1.105) 1s both;
+      z-index: 0;
+  }
+  .btn-2{
+  background:none;
+  border:none;
+  outline: none; 
+  /* display: block; */
+  /*  margin:45%; */
+  margin-left: -5%; 
+  margin-top: 15%;
+  }
+
+
+.pop-up-card{
+  height: auto;
+  width:80%;
+  margin-top: 35vh;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding-bottom: 10px;
+
+}
+
+  .warning{
+    width:100%;
+    background-color:rgba(255, 0, 0, 0.75);
+    height:auto;
+    justify-content:center;
+    padding:25px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+  }
+ .warning-ays h4{
+   
+    font-size: 50px;
+    font-family: 'Carter One', cursive!important;
+    
+  }
+   .warning-ays .fa{
+    font-size:50px;
+  }
+  .warning-ays{
+    width: 100%;
+    justify-content: center;
+    margin-top: 1%;
+    padding: 10px 10px 0px 10px;
+    font-size: 30px;
+    font-family: 'Carter One', cursive!important;
+    
+  }
+
+.warning-select{
+  justify-content: center;
+  margin-bottom:20px;
+
+}
+
+
+}
